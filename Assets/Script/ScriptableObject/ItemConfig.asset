@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b88f6e91f7133145b5a7968ecf673e8, type: 3}
+  m_Name: ItemConfig
+  m_EditorClassIdentifier: 
+  _items:
+  - ItemType: 0
+    Items: {fileID: -8781503706062816294, guid: c485861a7fbc458449232f190ed8fa6f, type: 3}
+    Item_ID:
+      ID: 00
+    Item_Name:
+      Name: Base Sound
+    Item_Cost:
+      Cost: 150
+  - ItemType: 1
+    Items: {fileID: 5102537153270496449, guid: 063276d29c51c344385cc87613ead496, type: 3}
+    Item_ID:
+      ID: 01
+    Item_Name:
+      Name: Midle Sound
+    Item_Cost:
+      Cost: 250
+  - ItemType: 2
+    Items: {fileID: 6898990508459924430, guid: d8fcd59050c50c843a4f5e370896fc07, type: 3}
+    Item_ID:
+      ID: 02
+    Item_Name:
+      Name: Costly Sound
+    Item_Cost:
+      Cost: 350
